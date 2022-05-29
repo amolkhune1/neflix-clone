@@ -5,7 +5,7 @@ import Thumbnail from "./Thumbnail";
 
 interface Props{
     title:String,
-    movies:Movie[]
+    movies:Movie[],
 }
 function Row({title,movies}:Props) {
     const rowRef=useRef<HTMLDivElement>(null);
