@@ -1,4 +1,4 @@
-function Login(props) {
+function Login() {
     return (
         <div>
             
