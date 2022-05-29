@@ -2,7 +2,7 @@ import {BellIcon, SearchIcon} from "@heroicons/react/solid"
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import BasicMenu from './BasicMenu';
-function Header(props) {
+function Header() {
     const [isScrolled, setIsScrolled] = useState(false)
     useEffect(()=>{
         const handleScroll=()=>{
