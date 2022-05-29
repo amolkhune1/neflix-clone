@@ -10,7 +10,7 @@ interface Props{
 function Banner({netflixOriginals}:Props) {
     const [movie, setMovie] = useState<Movie | null>(null)
     useEffect(()=>{
-        if(netflixOriginals.length){
+        if(netflixOriginals?.length){
             setMovie(
                 netflixOriginals[Math.floor(Math.random() * netflixOriginals?.length)]
               )
